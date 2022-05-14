@@ -1,12 +1,13 @@
 <div id="home">
     <div class="banner">
-        <img class="banner-imagem" src="imagens/banner.jpg" alt="">
+        <img class="banner-imagem" src="imagens/dusk-mountains-4k-ma-1366x768.jpg" alt="">
         <div class="text">
-            <h3 class="title">
+            <h3 class="title item">
                 João Miguel Mendonça
             </h3>
-            <p class="details">
-                Espero que goste do que veja! Acima tem um menu que te levará a páginas com mais informações.
+            <h4 class="subtitle item">Desenvolverdo Full stack</h4>
+            <p class="button item">
+                Veja mais
             </p>
         </div>
     </div>
@@ -17,7 +18,27 @@
         start_page();
 
         function start_page() {
-            $(".banner-imagem").addClass("active")
+
+            setTimeout(() => {
+                $(".banner-imagem").addClass("active")
+            }, "500")
+
+            setTimeout(() => {
+                start_banner()
+            }, "800")
+
+            $("#home .banner .text .button").click(function() {
+                $("#header").toggleClass("active")
+            });
+
+            function start_banner() {
+                $('#home .banner .text .item').each(function(i) {
+                    var $li = $(this);
+                    setTimeout(function() {
+                        $li.toggleClass('active');
+                    }, i * 500);
+                });
+            }
         }
     });
 </script>

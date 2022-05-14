@@ -11,7 +11,7 @@
                 <a href="https://www.linkedin.com/in/jo%C3%A3o-miguel-mendon%C3%A7a-665334187/" target="blank">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/Miguel2k20">
+                <a href="https://github.com/Miguel2k20" target="blank">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>

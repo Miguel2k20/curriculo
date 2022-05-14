@@ -5,9 +5,6 @@
 error_reporting(E_ALL ^ E_NOTICE);
 if ($_GET['page'] == null) {
     $url = "home.php";
-}
-if (!is_file("pages/" . $_GET['page'] . ".php")) {
-    $url = "404.php";
 } else {
     $url = $_GET['page'] . ".php";
 } ?>
@@ -20,6 +17,7 @@ if (!is_file("pages/" . $_GET['page'] . ".php")) {
     <link rel="icon" type="image/png" href="imagens/favicon.png" />
     <link rel="stylesheet" type="text/css" href="estilos/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="estilos/font/roboto/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/font/oleoskcript/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="estilos/css/padroes.css" />
     <link rel="stylesheet" type="text/css" href="estilos/css/site.css" />
 
@@ -29,10 +27,11 @@ if (!is_file("pages/" . $_GET['page'] . ".php")) {
 
 <body>
     <?php
-    include("header.php");
-    include("pages/" . $url);
-    include("footer.php");
+        include("header.php");
+        include("pages/" . $url);
+        include("footer.php");
     ?>
+
 </body>
 
 <script type="text/javascript">
