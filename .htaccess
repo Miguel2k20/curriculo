@@ -3,5 +3,6 @@
 
     RewriteRule ^home/?$ index.php?page=home
     RewriteRule ^sobrenos/?$ index.php?page=sobrenos
+    RewriteRule ^contato/?$ index.php?page=contato
 
 </IfModule>

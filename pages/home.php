@@ -1,1 +1,1 @@
-<h1>home</h1>
+<div style="background: rebeccapurple; min-height: 100vh;"></div>

@@ -1,3 +1,6 @@
 body {
     --principal_font : "robotoregular";
+    --title-medium: 18px;
+    --principal-color-font: #292d33;
+    --principal-color: #c9e9f7;
 }
