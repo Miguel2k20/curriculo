@@ -3,7 +3,7 @@
         <div class="menu">
             <div class="logo">
                 <a href="home">
-                    <img src="imagens/cpu.png" alt="">
+                    <img src="imagens/logo.png" alt="">
                 </a>
             </div>
             <ul class="list_pages">
@@ -24,9 +24,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-
         start_page();
-
         function start_page() {
             $("#header .menu .list_pages .item").hover(
                 function() {
@@ -35,7 +33,7 @@
                 function() {
                     $("#header .menu .list_pages .actual").addClass("active")
                 });
-            $("#header .menu").addClass("active")
+            $("#header").addClass("active")
         }
     });
 </script>
