@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteRule ^home/?$ index.php?page=home
+    RewriteRule ^sobrenos/?$ index.php?page=sobrenos
+
+</IfModule>
