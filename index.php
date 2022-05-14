@@ -20,6 +20,7 @@ if ($_GET['page'] == null) {
     <link rel="stylesheet" type="text/css" href="estilos/font/oleoskcript/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="estilos/css/padroes.css" />
     <link rel="stylesheet" type="text/css" href="estilos/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/css/responsive.css" />
 
 </head>
 <script src="https://kit.fontawesome.com/b6698fea4f.js" crossorigin="anonymous"></script>
@@ -27,9 +28,9 @@ if ($_GET['page'] == null) {
 
 <body>
     <?php
-        include("header.php");
-        include("pages/" . $url);
-        include("footer.php");
+    include("header.php");
+    include("pages/" . $url);
+    include("footer.php");
     ?>
 
 </body>

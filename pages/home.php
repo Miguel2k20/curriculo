@@ -5,7 +5,7 @@
             <h3 class="title item">
                 João Miguel Mendonça
             </h3>
-            <h4 class="subtitle item">Desenvolverdo Full stack</h4>
+            <h4 class="subtitle item">Desenvolvedor Full stack</h4>
             <p class="button item">
                 Veja mais
             </p>
